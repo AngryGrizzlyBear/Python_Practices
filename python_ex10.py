@@ -17,3 +17,7 @@ print fat_cat
 #while True:
  #   for i in ["/", "-", "|", "\\", "|"]:
   #      print "%s\r" % i,
+
+# Study drill code with double/single quotes and %s or %r
+print('Didn\'t you see {!r}, that\'s {!r} '.format("Michael\'s tops", "crazy"))
+print('Didn\'t you see {!s}, that\'s {!s} '.format("Michael\'s tops", "crazy"))
