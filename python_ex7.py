@@ -31,8 +31,8 @@ end11 = "e"
 # Variable
 end12 = "r"
 
-# what that comma at the end. try removing it to see what happends
+# What that comma at the end. try removing it to see what happends
 
-#removing the comma will print them out on different lines instead of being on the same line. 
+# Removing the comma will print them out on different lines instead of being on the same line. 
 print end1 + end2 + end3 + end4 + end5 + end6,
 print end7 + end8 + end9 + end10 + end11 + end12
