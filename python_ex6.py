@@ -24,5 +24,5 @@ print joke_evaluation % hilarious
 w = "This is the left side of..."
 # This is also a variable.
 e = "a string with a right side."
-# This will combine a variable. w + e. That's why it'll make it longer.
+# This will combine two variables. w + e. That's why it'll make it longer. Why? I believe because they're both strings, and adding the two together will make one string. 
 print w + e
