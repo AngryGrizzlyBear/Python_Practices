@@ -21,3 +21,6 @@ print fat_cat
 # Study drill code with double/single quotes and %s or %r
 print('Didn\'t you see {!r}, that\'s {!r} '.format("Michael\'s tops", "crazy"))
 print('Didn\'t you see {!s}, that\'s {!s} '.format("Michael\'s tops", "crazy"))
+
+print 'Didn\'t you see %r, that\'s %r ' % ("Michael\'s tops", "crazy")
+print 'Didn\'t you see %s, that\'s %s ' % ("Michael\'s tops", "crazy")
