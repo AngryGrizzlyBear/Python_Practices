@@ -3,11 +3,16 @@ from sys import argv
 script, first, second, third = argv
 
 question = raw_input("Do you know what this is? ")
+fourth = raw_input("What is your fourth? ")
+fifth = raw_input("What is your fifth? ")
+sixth = raw_input("What is your sixth? ") 
 print "Ah....%r" % question
 print "The script is called:", script
 print "Your first variable is:", first
 print "Your second variable is:", second
 print "Your third variable is:", third
+
+print("for your script %r, these are the variables: %r, %r, %r, %r, %r, and %r") %(script, first, second, third, fourth, fifth, sixth)
 
 
 # If you don't print out 3 after running the script, you'll receive an error. Python will find the script, due to script? 
