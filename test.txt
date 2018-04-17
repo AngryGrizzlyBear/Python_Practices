@@ -1,3 +1,4 @@
 Hello there. 
- Would you like to grab a bite to eat? 
- Would you like to be my friend?
+Would you like to grab a bite to eat? 
+Would you like to be my friend? 
+
