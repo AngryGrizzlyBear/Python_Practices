@@ -15,6 +15,7 @@ def print_first_word(words):
 def print_last_word(words):
     """Prints the last word after popping it off."""
     word = words.pop(-1)
+
     print word
 
 def sort_sentence(sentence):
@@ -57,7 +58,7 @@ print "This should be five: %s" % five
 
 def secret_formula(started):
     jelly_beans = started * 500
-    jars = jelly_beans \ 1000
+    jars = jelly_beans / 1000
     crates = jars / 100
     return jelly_beans, jars, crates
 
