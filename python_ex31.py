@@ -31,4 +31,13 @@ elif door == "2":
         print "The instanity rots your eyes into a pool of muck. Good job!"
 
 else:
-    print "You stumble around and fall on a knife and die. Good job!"
+    print "You realize that this is a bad idea. Would you like to go home?"
+
+home = raw_input("> ")
+
+if home == "yes".lower():
+    print "Wise choice. You go home safely and never return to this dreadful area again."
+elif home == "no".lower():
+    print "Why would you stay here? Because you decided to stay, you were tortured slowly by Cthulu. You eventually become a mindless slave."
+else: 
+    print "You took too long to decide. The bear came back and ate your legs."
