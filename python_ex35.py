@@ -37,4 +37,5 @@ def bear_room():
             gold_room()
         else:
             print "I got no idea what that means."
+# This test called for the bear room to see if it works. So far it does, dead isn't defined yet.
 bear_room()
