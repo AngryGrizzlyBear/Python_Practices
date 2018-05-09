@@ -38,4 +38,39 @@ def bear_room():
         else:
             print "I got no idea what that means."
 # This test called for the bear room to see if it works. So far it does, dead isn't defined yet.
-bear_room()
+  
+def cthulhu_room():
+    print "Here you see the great evil Cthulu."
+    print "He, it, whatever stares at you and you go insane."
+    print "Do you flee for your life or eat your head?"
+
+    next = raw_input("> ")
+
+    if "flee" in next:
+        start()
+    elif "head" in next:
+        dead("Well, that was tasty!")
+    else:
+        cthulhu_room()
+
+def dead(why):
+    print why, "Good job!"
+    exit(0)
+
+def start():
+    print "You are in a dark room."
+    print "There is doorto your right and left."
+    print "Which one do you take?"
+
+    next = raw_input("> ")
+
+    if next == "left":
+        bear_room()
+    elif next == "right":
+        cthulhu_room()
+    else:
+        dead("You stumble around the room until you starve.")
+
+
+
+start()
