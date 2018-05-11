@@ -22,6 +22,10 @@ def right_road():
             print "Realizing the danger, you decide to go back home and call it a day."
         else: 
             game_over()
+    elif next == "B".lower() or next == "Jump in the hole.".lower():
+        print "The hole expands, swallowing you whole."
+        print "After spending countless hours in the hole, the ground decides to spit you back out."
+        game_over("Covered in oil. dirt, and junk, you're contemplating on whether or not you want to continue.")
 
 def start():
     print "You're traveling down a road."
@@ -41,7 +45,7 @@ def start():
     else: 
         game_over()
 
-def game_over():
+def game_over(why):
     print "You're too scared to progress. You turn around and go home."
 
 start()
