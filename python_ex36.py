@@ -11,11 +11,11 @@ def start():
 
     next = raw_input("> ")
 
-    if next == "A".lower():
+    if next == "A".lower() or next == "Right Road".lower():
         print "You have chosen to go down the right road."
-    elif next == "B".lower():
+    elif next == "B".lower() or next == "Middle Road".lower():
         print "You have chosen to go down the middle road."
-    elif next == "C".lower():
+    elif next == "C".lower() or next == "Left Road".lower():
         print "You have chosen to down the left road."
     else: 
         game_over()
