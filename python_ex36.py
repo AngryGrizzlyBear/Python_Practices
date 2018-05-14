@@ -18,6 +18,8 @@ def right_road():
         
         if next == "A".lower() or next == "Continue".lower():
             print "You continue on down the road."
+            print "You managed to find something worth while! A shiny diamond lay in your path. You take it home and make a fortune!"
+            exit(0)
         elif next == "B".lower() or next == "Go back home".lower():
             print "Realizing the danger, you decide to go back home and call it a day."
         else: 
