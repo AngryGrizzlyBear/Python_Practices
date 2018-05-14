@@ -2,6 +2,7 @@
 # Don't be afraid! Otherwise, you're going home.
 
 from sys import exit
+
 def right_road():
     print "You've decided to go down the right road."
     print "As you walk, you've discovered a hole in the middle of the road. What do you do?"
@@ -18,8 +19,7 @@ def right_road():
         
         if next == "A".lower() or next == "Continue".lower():
             print "You continue on down the road."
-            print "You managed to find something worth while! A shiny diamond lay in your path. You take it home and make a fortune!"
-            exit(0)
+            end_of_gane()
         elif next == "B".lower() or next == "Go back home".lower():
             print "Realizing the danger, you decide to go back home and call it a day."
         else: 
@@ -37,7 +37,15 @@ def middle_road():
     print "You've decided to go down the middle road."
     print "Immediately, you see a cat stuck in a tree."
     print "Please select your answer. \nA. Help the cat.\nB. Walk past the cat."
-       
+    cat_helped = False
+
+    while True:
+        next = raw_input("> ")
+
+        if next == "A".lower():
+            print "You help the cat. The cat looks worried. What do you do?"
+            cat_helped = True
+            print "Choose your answer."       
         
         
 
@@ -63,5 +71,12 @@ def start():
 def game_over(why):
     print why, "You're too scared to progress. You turn around and go home."
     exit(0)
+
+def end_of_gane():
+    print "You've come to the end of your journey."
+    print "You find a diamond lying still in the floor."
+    print "You take it home, sell it, and make a lot of money. Good job!"
+    exit(0)
+
 
 start()
