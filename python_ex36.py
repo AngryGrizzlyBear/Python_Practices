@@ -60,6 +60,8 @@ def middle_road():
                 game_over("The cat doesn't trust you. The cat swipes at you and runs away, leaving you alone.")
         elif next == "B".lower():
             game_over("The cat waits for you to walk by. The cat jumps from the tree, on to your head, and scratches your face. The cat then runs away, leaving you alone and terrifed.")
+        else:
+            game_over("You turn around and decide to leave the area. Now you're terrified and alone.")
  
         
         
