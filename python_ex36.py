@@ -53,7 +53,12 @@ def middle_road():
                 print "The cat looks thankful."   
                 print "The cat can talk!"
                 print "The cat says 'Follow Me.' and runs ahead of you."
-                end_of_gane("The cat leads you down a road.")   
+                end_of_gane("The cat leads you down a road.")  
+            elif next == "B".lower():
+                game_over("The cat jumps out of your arms and runs away. You now feel hurt, scared and alone.")
+            else:
+                game_over("The cat doesn't trust you. The cat swipes at you and runs away, leaving you alone.")
+ 
         
         
 
