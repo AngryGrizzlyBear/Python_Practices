@@ -32,6 +32,11 @@ def right_road():
         print "You've decided that you should'nt even be here. You've made the decision to go home, safely."
     else:
         game_over("You're terrible.")
+
+def middle_road():
+    print "You've decided to go down the middle road."
+    print "Immediately, you see a cat stuck in a tree."
+    print "Please select your answer. \nA. Help the cat.\nB. Walk past the cat."
        
         
         
@@ -49,6 +54,7 @@ def start():
         right_road()
     elif next == "B".lower() or next == "Middle Road".lower():
         print "You have chosen to go down the middle road."
+        middle_road()
     elif next == "C".lower() or next == "Left Road".lower():
         print "You have chosen to down the left road."
     else: 
