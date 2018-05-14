@@ -45,7 +45,15 @@ def middle_road():
         if next == "A".lower():
             print "You help the cat. The cat looks worried. What do you do?"
             cat_helped = True
-            print "Choose your answer."       
+            print "Choose your answer. \nA. Soothe the cat.\nB. Don't soothe the cat."
+
+            next = raw_input("> ")
+
+            if next == "A".lower():
+                print "The cat looks thankful."   
+                print "The cat can talk!"
+                print "The cat says 'Follow Me.' and runs ahead of you."
+                end_of_gane("The cat leads you down a road.")   
         
         
 
@@ -72,8 +80,8 @@ def game_over(why):
     print why, "You're too scared to progress. You turn around and go home."
     exit(0)
 
-def end_of_gane():
-    print "You've come to the end of your journey."
+def end_of_gane(conclusion):
+    print conclusion, "You've come to the end of your journey."
     print "You find a diamond lying still in the floor."
     print "You take it home, sell it, and make a lot of money. Good job!"
     exit(0)
