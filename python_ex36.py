@@ -72,6 +72,8 @@ def left_road():
 
     if next.lower() == "a":
         game_over("As you turn around, the tiger notices you. The tiger gives chase and you run. The tiger grows bored and leaves you alone. You're tired and hungry.")
+    elif next.lower() == "b":
+        end_of_gane("The tiger, randomly catches you off guard, and drags you to a new road, filled with wonders. It then, runs off.")
 
  
         
