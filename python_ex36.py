@@ -62,6 +62,17 @@ def middle_road():
             game_over("The cat waits for you to walk by. The cat jumps from the tree, on to your head, and scratches your face. The cat then runs away, leaving you alone and terrifed.")
         else:
             game_over("You turn around and decide to leave the area. Now you're terrified and alone.")
+
+def left_road():
+    print "You've chosen to go down the left road."
+    print "You see a tiger in the road. What do you do?"
+    print "Please select your answer. \nA. Say 'Screw this.' and run home.\nB. Mind your own damn business and walk past the tiger."
+
+    next = raw_input("> ")
+
+    if next.lower() == "a":
+        game_over("As you turn around, the tiger notices you. The tiger gives chase and you run. The tiger grows bored and leaves you alone. You're tired and hungry.")
+
  
         
         
@@ -82,6 +93,7 @@ def start():
         middle_road()
     elif next == "C".lower() or next == "Left Road".lower():
         print "You have chosen to down the left road."
+        left_road()
     else: 
         game_over()
 
