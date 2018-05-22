@@ -1,18 +1,18 @@
 # create a amapping of state to abbreviation
-states = [
-    'Oregon':  'OR',
+states = {
+    'Oregon':   'OR',
     'Florida':  'FL',
-    'California': 'CA,'
+    'California': 'CA',
     'New York': 'NY',
-    'Michigan': 'MI',
-]
+    'Michigan': 'MI'
+}
 
 # creates a basic set of states and some cities in them
-cities = [
+cities = {
     'CA': 'San Francisco',
     'MI': 'Detroit',
     'FL': 'Jacksonville'
-]
+}
 
 # add some more cities
 cities['NY'] = 'New York'
