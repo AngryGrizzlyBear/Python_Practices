@@ -23,4 +23,8 @@ print '-' * 10
 print "NY State has: ", cities['NY']
 print "OR State has: ", cities['OR']
 
+# prints out some states
+print '-' * 10
+print "Michigan's abbreviation is: ", states['Michigan']
+print "Florida's abbreviation is: ", states['Florida']
 
