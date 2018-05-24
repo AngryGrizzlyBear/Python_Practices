@@ -16,3 +16,7 @@ cities['WY'] = 'Cheyenne'
 print '-' * 10
 print "WY State has: ", cities['WY']
 
+print '-' * 10
+print "Nevada's abbreviated state is: ", states['Nevada']
+print "Montana's abbreviated state is: ", states['Montana']
+
