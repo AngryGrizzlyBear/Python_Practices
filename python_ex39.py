@@ -48,4 +48,4 @@ for abbrev, city in cities.items():
 print '-' * 10
 for state, abbrev in states.items():
     print "% state is abbreviated %s and has city %s" % (
-        state, abbrev, cities[aabbrev])
+        state, abbrev, cities[abbrev])
