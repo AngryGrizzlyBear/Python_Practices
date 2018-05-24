@@ -20,3 +20,8 @@ print '-' * 10
 print "Nevada's abbreviated state is: ", states['Nevada']
 print "Montana's abbreviated state is: ", states['Montana']
 
+print '-' * 10
+print "Washington has: ", cities[states["Washington"]]
+print "Nevada has: ", cities[states["Nevada"]]
+
+
