@@ -20,4 +20,8 @@ PHRASES = {
       "From *** get the *** attribute and set it to '***'."
 }
 
-# That was too damn long.
+# Do they want to drill phases first
+PRHASE_FIRST = False
+if len(sys.argv) == 2 and sys.argv[1] == "english":
+    PHRASE_FIRST = True
+
